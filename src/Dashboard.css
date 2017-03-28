@@ -1,0 +1,166 @@
+h1{
+    color:#3c404b;
+    font-size:24px;
+    display:inline-block;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+label {
+    font-weight: 700;
+}
+
+.header {
+    margin-bottom: 30px;
+    clear:both;
+    width:100%;
+}
+.lbluebkg{
+    background-color:#f7fcfd;
+    clear:both;
+}
+.section-container{
+    clear:both;
+    margin-bottom: 30px;
+}
+
+.section-container > h2{
+    display:block;
+    width:100%;
+    background-color: #515766;
+    padding:10px 20px;
+    margin:0 0 10px;
+    font-size: 16px;
+}
+
+.oline {
+    border: 1px solid #e0e0e0;
+}
+
+.Catagories{
+    background-color:#fbfbfb;
+}
+
+.Personal {
+    display: flex;
+}
+.SelectRow{
+    cursor: pointer;
+}
+.SelectRow:hover{
+    background-color:#efefef;
+}
+.useritem{
+    border-right:1px solid #ccc;
+    padding:20px;
+    flex: 0 0 10%;
+    min-width:100px;
+}
+.useritem:last-of-type{
+    border-right:none;
+}
+.name-item {
+    flex-grow: 1;
+    margin:10px 5px;
+    border-right:1px solid #e0e0e0;
+}
+
+.name-item:first-of-type{
+    margin-left:30px;
+}
+
+.name-item:last-of-type{
+    margin-right:30px;
+    border-right:none;
+}
+
+.Autosearch{
+    float:right;
+    position:relative;
+}
+
+.Autosearch input{
+    position:absolute;
+    right:0;
+    top:0px;
+    width:300px;
+    height:30px;
+    font-size:16px;
+    line-height:24px;
+}
+.Autosearch ul{
+    display:block;
+    border:1px solid #e0e0e0;
+    padding:0;
+    position:absolute;
+    top:10px;
+    right:0;
+    background:#fff;
+    width:300px;
+}
+.Autosearch li{
+    list-style: none;
+    margin:0 0 5px;
+    padding: 3px 8px;
+    font-size:16px;
+    line-height:24px;
+    border-bottom:1px solid #e0e0e0;
+}
+
+.Autosearch li:last-child{
+    border-bottom: 0;
+}
+
+.flexsession{
+    display:flex;
+    padding:10px 20px;
+}
+
+.session{
+    padding:20px 20px 20px 100px;
+    display: flex;
+    cursor: pointer;
+}
+
+.sessiondetails{
+    background-color:#f9f9f9;
+    padding:10px 20px 10px 200px;
+}
+.sessiondetails label{
+    font-weight: 400;
+}
+
+.sessiondetails a{
+    color: #000;
+}
+
+.iterate{
+        border-bottom: 1px solid #e0e0e0;
+}
+.iterate:last-of-type{
+    border-bottom:none;
+}
+
+.datapoint{
+    flex-grow:1;
+    min-width:25%;
+}
+
+.BarGraph{
+    flex-grow:2;
+    min-width:75%;
+    max-height:320px;
+    margin-bottom:70px;
+}
+
+.PieGraph{
+    flex-grow:1;
+    min-width:25%;
+    max-height:320px;
+    margin-bottom:70px;
+}
+
